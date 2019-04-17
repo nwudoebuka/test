@@ -15,6 +15,9 @@
 		71A0198722673430006E2045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A0198522673430006E2045 /* LaunchScreen.storyboard */; };
 		71A0199222673430006E2045 /* KinwaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0199122673430006E2045 /* KinwaeTests.swift */; };
 		71A0199D22673430006E2045 /* KinwaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0199C22673430006E2045 /* KinwaeUITests.swift */; };
+		71A019AC2267610A006E2045 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A019AB2267610A006E2045 /* FloatLabelTextField.swift */; };
+		71A019AF226763E8006E2045 /* UiViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A019AE226763E8006E2045 /* UiViewControllerExtension.swift */; };
+		71A019B122677348006E2045 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A019B022677348006E2045 /* ViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		71A0199822673430006E2045 /* KinwaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinwaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A0199C22673430006E2045 /* KinwaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinwaeUITests.swift; sourceTree = "<group>"; };
 		71A0199E22673430006E2045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A019AB2267610A006E2045 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		71A019AE226763E8006E2045 /* UiViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewControllerExtension.swift; sourceTree = "<group>"; };
+		71A019B022677348006E2045 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 		71A019782267342B006E2045 /* Kinwae */ = {
 			isa = PBXGroup;
 			children = (
+				71A019AD226763C8006E2045 /* extensions */,
+				71A019AA226760E9006E2045 /* lib */,
 				71A019792267342B006E2045 /* AppDelegate.swift */,
 				71A0197B2267342B006E2045 /* ViewController.swift */,
 				71A0197D2267342B006E2045 /* Main.storyboard */,
@@ -126,6 +134,23 @@
 				71A0199E22673430006E2045 /* Info.plist */,
 			);
 			path = KinwaeUITests;
+			sourceTree = "<group>";
+		};
+		71A019AA226760E9006E2045 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				71A019AB2267610A006E2045 /* FloatLabelTextField.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		71A019AD226763C8006E2045 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				71A019AE226763E8006E2045 /* UiViewControllerExtension.swift */,
+				71A019B022677348006E2045 /* ViewControllerExtension.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A019AF226763E8006E2045 /* UiViewControllerExtension.swift in Sources */,
 				71A019822267342B006E2045 /* Kinwae.xcdatamodeld in Sources */,
+				71A019B122677348006E2045 /* ViewControllerExtension.swift in Sources */,
 				71A0197C2267342B006E2045 /* ViewController.swift in Sources */,
 				71A0197A2267342B006E2045 /* AppDelegate.swift in Sources */,
+				71A019AC2267610A006E2045 /* FloatLabelTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
