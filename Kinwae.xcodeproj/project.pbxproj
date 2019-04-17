@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71A0197A2267342B006E2045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A019792267342B006E2045 /* AppDelegate.swift */; };
+		71A0197C2267342B006E2045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0197B2267342B006E2045 /* ViewController.swift */; };
+		71A0197F2267342B006E2045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A0197D2267342B006E2045 /* Main.storyboard */; };
+		71A019822267342B006E2045 /* Kinwae.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71A019802267342B006E2045 /* Kinwae.xcdatamodeld */; };
+		71A0198422673430006E2045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A0198322673430006E2045 /* Assets.xcassets */; };
+		71A0198722673430006E2045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A0198522673430006E2045 /* LaunchScreen.storyboard */; };
+		71A0199222673430006E2045 /* KinwaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0199122673430006E2045 /* KinwaeTests.swift */; };
+		71A0199D22673430006E2045 /* KinwaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A0199C22673430006E2045 /* KinwaeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71A0198E22673430006E2045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A0196E2267342B006E2045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A019752267342B006E2045;
+			remoteInfo = Kinwae;
+		};
+		71A0199922673430006E2045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A0196E2267342B006E2045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A019752267342B006E2045;
+			remoteInfo = Kinwae;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71A019762267342B006E2045 /* Kinwae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kinwae.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A019792267342B006E2045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71A0197B2267342B006E2045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71A0197E2267342B006E2045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71A019812267342B006E2045 /* Kinwae.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kinwae.xcdatamodel; sourceTree = "<group>"; };
+		71A0198322673430006E2045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71A0198622673430006E2045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71A0198822673430006E2045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A0198D22673430006E2045 /* KinwaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinwaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A0199122673430006E2045 /* KinwaeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinwaeTests.swift; sourceTree = "<group>"; };
+		71A0199322673430006E2045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A0199822673430006E2045 /* KinwaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinwaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A0199C22673430006E2045 /* KinwaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinwaeUITests.swift; sourceTree = "<group>"; };
+		71A0199E22673430006E2045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A019732267342B006E2045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A0198A22673430006E2045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A0199522673430006E2045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71A0196D2267342B006E2045 = {
+			isa = PBXGroup;
+			children = (
+				71A019782267342B006E2045 /* Kinwae */,
+				71A0199022673430006E2045 /* KinwaeTests */,
+				71A0199B22673430006E2045 /* KinwaeUITests */,
+				71A019772267342B006E2045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71A019772267342B006E2045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A019762267342B006E2045 /* Kinwae.app */,
+				71A0198D22673430006E2045 /* KinwaeTests.xctest */,
+				71A0199822673430006E2045 /* KinwaeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A019782267342B006E2045 /* Kinwae */ = {
+			isa = PBXGroup;
+			children = (
+				71A019792267342B006E2045 /* AppDelegate.swift */,
+				71A0197B2267342B006E2045 /* ViewController.swift */,
+				71A0197D2267342B006E2045 /* Main.storyboard */,
+				71A0198322673430006E2045 /* Assets.xcassets */,
+				71A0198522673430006E2045 /* LaunchScreen.storyboard */,
+				71A0198822673430006E2045 /* Info.plist */,
+				71A019802267342B006E2045 /* Kinwae.xcdatamodeld */,
+			);
+			path = Kinwae;
+			sourceTree = "<group>";
+		};
+		71A0199022673430006E2045 /* KinwaeTests */ = {
+			isa = PBXGroup;
+			children = (
+				71A0199122673430006E2045 /* KinwaeTests.swift */,
+				71A0199322673430006E2045 /* Info.plist */,
+			);
+			path = KinwaeTests;
+			sourceTree = "<group>";
+		};
+		71A0199B22673430006E2045 /* KinwaeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71A0199C22673430006E2045 /* KinwaeUITests.swift */,
+				71A0199E22673430006E2045 /* Info.plist */,
+			);
+			path = KinwaeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A019752267342B006E2045 /* Kinwae */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A019A122673430006E2045 /* Build configuration list for PBXNativeTarget "Kinwae" */;
+			buildPhases = (
+				71A019722267342B006E2045 /* Sources */,
+				71A019732267342B006E2045 /* Frameworks */,
+				71A019742267342B006E2045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kinwae;
+			productName = Kinwae;
+			productReference = 71A019762267342B006E2045 /* Kinwae.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71A0198C22673430006E2045 /* KinwaeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A019A422673430006E2045 /* Build configuration list for PBXNativeTarget "KinwaeTests" */;
+			buildPhases = (
+				71A0198922673430006E2045 /* Sources */,
+				71A0198A22673430006E2045 /* Frameworks */,
+				71A0198B22673430006E2045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A0198F22673430006E2045 /* PBXTargetDependency */,
+			);
+			name = KinwaeTests;
+			productName = KinwaeTests;
+			productReference = 71A0198D22673430006E2045 /* KinwaeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71A0199722673430006E2045 /* KinwaeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A019A722673430006E2045 /* Build configuration list for PBXNativeTarget "KinwaeUITests" */;
+			buildPhases = (
+				71A0199422673430006E2045 /* Sources */,
+				71A0199522673430006E2045 /* Frameworks */,
+				71A0199622673430006E2045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A0199A22673430006E2045 /* PBXTargetDependency */,
+			);
+			name = KinwaeUITests;
+			productName = KinwaeUITests;
+			productReference = 71A0199822673430006E2045 /* KinwaeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A0196E2267342B006E2045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Nwudo Ebuka";
+				TargetAttributes = {
+					71A019752267342B006E2045 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					71A0198C22673430006E2045 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 71A019752267342B006E2045;
+					};
+					71A0199722673430006E2045 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 71A019752267342B006E2045;
+					};
+				};
+			};
+			buildConfigurationList = 71A019712267342B006E2045 /* Build configuration list for PBXProject "Kinwae" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A0196D2267342B006E2045;
+			productRefGroup = 71A019772267342B006E2045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A019752267342B006E2045 /* Kinwae */,
+				71A0198C22673430006E2045 /* KinwaeTests */,
+				71A0199722673430006E2045 /* KinwaeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A019742267342B006E2045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A0198722673430006E2045 /* LaunchScreen.storyboard in Resources */,
+				71A0198422673430006E2045 /* Assets.xcassets in Resources */,
+				71A0197F2267342B006E2045 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A0198B22673430006E2045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A0199622673430006E2045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A019722267342B006E2045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A019822267342B006E2045 /* Kinwae.xcdatamodeld in Sources */,
+				71A0197C2267342B006E2045 /* ViewController.swift in Sources */,
+				71A0197A2267342B006E2045 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A0198922673430006E2045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A0199222673430006E2045 /* KinwaeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A0199422673430006E2045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A0199D22673430006E2045 /* KinwaeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71A0198F22673430006E2045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A019752267342B006E2045 /* Kinwae */;
+			targetProxy = 71A0198E22673430006E2045 /* PBXContainerItemProxy */;
+		};
+		71A0199A22673430006E2045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A019752267342B006E2045 /* Kinwae */;
+			targetProxy = 71A0199922673430006E2045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71A0197D2267342B006E2045 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A0197E2267342B006E2045 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71A0198522673430006E2045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A0198622673430006E2045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71A0199F22673430006E2045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71A019A022673430006E2045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A019A222673430006E2045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = Kinwae/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.Kinwae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A019A322673430006E2045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = Kinwae/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.Kinwae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71A019A522673430006E2045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = KinwaeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.KinwaeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kinwae.app/Kinwae";
+			};
+			name = Debug;
+		};
+		71A019A622673430006E2045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = KinwaeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.KinwaeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kinwae.app/Kinwae";
+			};
+			name = Release;
+		};
+		71A019A822673430006E2045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = KinwaeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.KinwaeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kinwae;
+			};
+			name = Debug;
+		};
+		71A019A922673430006E2045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = KinwaeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.KinwaeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kinwae;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A019712267342B006E2045 /* Build configuration list for PBXProject "Kinwae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A0199F22673430006E2045 /* Debug */,
+				71A019A022673430006E2045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A019A122673430006E2045 /* Build configuration list for PBXNativeTarget "Kinwae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A019A222673430006E2045 /* Debug */,
+				71A019A322673430006E2045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A019A422673430006E2045 /* Build configuration list for PBXNativeTarget "KinwaeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A019A522673430006E2045 /* Debug */,
+				71A019A622673430006E2045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A019A722673430006E2045 /* Build configuration list for PBXNativeTarget "KinwaeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A019A822673430006E2045 /* Debug */,
+				71A019A922673430006E2045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71A019802267342B006E2045 /* Kinwae.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71A019812267342B006E2045 /* Kinwae.xcdatamodel */,
+			);
+			currentVersion = 71A019812267342B006E2045 /* Kinwae.xcdatamodel */;
+			path = Kinwae.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71A0196E2267342B006E2045 /* Project object */;
+}
